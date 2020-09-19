@@ -1,0 +1,29 @@
+.history-page {
+  overflow-x: auto;
+}
+.history-page table {
+  margin: auto;
+  width: 100%;
+}
+.history-page table,
+th,
+tr,
+td {
+  color: #fdfdfd;
+  border: 1px solid #1e90ff;
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.history-page table a {
+  color: #1e90ff;
+}
+.history-page img {
+  width: 70px;
+  height: 100px;
+  object-fit: cover;
+}

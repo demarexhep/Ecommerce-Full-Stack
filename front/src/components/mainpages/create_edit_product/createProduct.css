@@ -1,0 +1,102 @@
+#ad_create_product {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fdfdfd;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.upload {
+  max-width: 450px;
+  height: 500px;
+  width: 100%;
+  border: 1px solid #fdfdfd;
+  padding: 15px;
+  margin: 20px;
+  position: relative;
+}
+#file_up {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+#file_up::before {
+  content: "+";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fdfdfd;
+  color: #1e90ff;
+  font-size: 17rem;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+}
+#file_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fdfdfd;
+}
+#file_img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+#file_img span {
+  position: absolute;
+  top: -13px;
+  right: -13px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-weight: 900;
+  color: #1e90ff;
+  cursor: pointer;
+}
+
+#ad_create_product form {
+  max-width: 500px;
+  color: #fdfdfd;
+  min-width: 290px;
+  width: 100%;
+  margin: 15px 30px;
+}
+#ad_create_product form .row {
+  color: #fdfdfd;
+  width: 100%;
+  margin: 15px 0;
+}
+#ad_create_product form input,
+#ad_create_product form textarea {
+  width: 100%;
+  color: #fdfdfd;
+  min-height: 40px;
+  padding: 0 5px;
+}
+#ad_create_product form label {
+  text-transform: uppercase;
+  color: #fdfdfd;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+#ad_create_product form button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #1e90ff;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  cursor: pointer;
+}

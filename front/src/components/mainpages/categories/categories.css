@@ -1,0 +1,47 @@
+.category {
+  color: #fdfdfd;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+.category form {
+  width: 290px;
+  margin-bottom: 20px;
+}
+.category label {
+  display: block;
+  color: #fdfdfd;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.category input,
+.category button {
+  height: 35px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #1e90ff;
+}
+.category input {
+  color: #fdfdfd;
+  width: 210px;
+}
+.category button {
+  width: 70px;
+  background: #1e90ff;
+  color: #fdfdfd;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.category .row {
+  min-width: 290px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #1e90ff;
+}

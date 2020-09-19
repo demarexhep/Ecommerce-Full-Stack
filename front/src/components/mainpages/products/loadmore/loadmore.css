@@ -1,0 +1,10 @@
+.load-more {
+  text-align: center;
+}
+.load-more button {
+  padding: 10px 25px;
+  color: #fdfdfd;
+  margin-bottom: 20px;
+  border: 1px solid #1e90ff;
+  text-transform: capitalize;
+}
